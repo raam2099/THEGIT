@@ -1,0 +1,2593 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.co-ode.org/ontologies/ADHD/"
+     xml:base="http://www.co-ode.org/ontologies/ADHD/"
+     xmlns:ADHD1="http://www.ADHD.com/ontologies/ADHD.owl/"
+     xmlns:core="http://www.w3.org/2004/02/skos/core# "
+     xmlns:ADHD="http://www.co-ode.org/ontologies/ADHD/ADHD.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.co-ode.org/ontologies/ADHD">
+        <owl:versionIRI rdf:resource="http://www.co-ode.org/ontologies/ADHD/2.0.0"/>
+        <core:reference xml:lang="en">Certain details for this ontology were inspired and modeled from the information of the website:
+http://www.adhd-federation.org/adhd-world-federation
+
+Please if you need more information, visit the full website.</core:reference>
+        <core:reference xml:lang="en">Certain details used to create the present ontology were inspired from the website: https://www.additudemag.com
+
+Please visit it , if you need more information on the topic</core:reference>
+        <dc:title xml:lang="en">ADHD</dc:title>
+        <rdfs:label xml:lang="es">Esta ontología esta diseñada para ser bilingue. Se pueden ver todos sus terminos en dos idiomas, tanto en Español como en ingles.</rdfs:label>
+        <terms:contributor xml:lang="en">Roberto Abarca</terms:contributor>
+        <dc:description xml:lang="en">Antology created to organize and better understand ADHD.</dc:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADHD</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/provenance -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/provenance"/>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000271 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000271">
+        <rdfs:label xml:lang="en">reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core# reference -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core# reference"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172">
+        <owl:inverseOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000056"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+        <rdfs:label xml:lang="en">Treat</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:domain rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:domain rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000056"/>
+        <rdfs:label xml:lang="en">are_treated_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000199 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000199">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:label xml:lang="en">are_a_combination_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200">
+        <owl:inverseOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+        <rdfs:label xml:lang="en">Can_aggravate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:domain rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:domain rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207"/>
+        <rdfs:label xml:lang="en">are_aggravated_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000267 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000267">
+        <rdfs:label xml:lang="en">Stimulants_are_first_synthetized</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000268 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000268">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000046"/>
+        <rdfs:domain rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000113"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000045"/>
+        <rdfs:label xml:lang="en">complement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000269 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000269">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000011"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000012"/>
+        <rdfs:range rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000015"/>
+        <rdfs:label xml:lang="en">main_reason_for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000270 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000270">
+        <rdfs:subPropertyOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000267"/>
+        <rdfs:label xml:lang="en">Methylphenidate_are_first_used</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000001 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000001">
+        <owl:disjointWith rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000083"/>
+        <owl:disjointWith rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000087"/>
+        <owl:disjointWith rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000088"/>
+        <owl:disjointWith rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000089"/>
+        <owl:disjointWith rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000090"/>
+        <owl:disjointWith rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000091"/>
+        <rdfs:label xml:lang="en">DomainThing</rdfs:label>
+        <rdfs:label xml:lang="es">tema de Dominio</rdfs:label>
+        <skos:prefLabel xml:lang="en">DomainThing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000006 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000006">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000001"/>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000244"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment xml:lang="es">Description of the topic regarding each country</rdfs:comment>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+        <rdfs:label xml:lang="es">Pais</rdfs:label>
+        <skos:prefLabel xml:lang="en">Country</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000007 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000007">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000001"/>
+        <dc:description xml:lang="en">Hollistic view of ADHD . This structure characterizes in its management, types of medication currently available and its probable causes.</dc:description>
+        <rdfs:comment xml:lang="es">Desorden de defficit de atención e impulsividad</rdfs:comment>
+        <rdfs:label xml:lang="en">ADHD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000008 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000008">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000007"/>
+        <dc:description xml:lang="en">A brief organization of the disease&apos;s history.</dc:description>
+        <rdfs:label xml:lang="es">Historia</rdfs:label>
+        <rdfs:label xml:lang="en">History</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000009 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000009">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000007"/>
+        <dc:description xml:lang="en">The different Types of known ADHD and their most common symptoms</dc:description>
+        <rdfs:label xml:lang="es">Tipos</rdfs:label>
+        <rdfs:label xml:lang="en">Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000011 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000011">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">ADHD characterized for its impulsivity in making decisions and its hyperactivness in children and adults.</rdfs:comment>
+        <rdfs:label xml:lang="es">ADHD de tipo hiperactivo-compulsivo</rdfs:label>
+        <rdfs:label xml:lang="en">ADHD-PH_(Hyperactive-impulsive)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000012 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000012">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">ADHD that is characterized for its inattentiveness in childs and adults.</rdfs:comment>
+        <rdfs:label xml:lang="es">ADHD de tipo inatento</rdfs:label>
+        <rdfs:label xml:lang="en">ADHD-PI_(Inattentive)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000015 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000015">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The most common type of ADHD. A mixture of both symptoms.</rdfs:comment>
+        <rdfs:label xml:lang="es">ADHD de tipo combinado</rdfs:label>
+        <rdfs:label xml:lang="en">ADHD-C_(Combined type)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000039 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000039">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000007"/>
+        <rdfs:comment xml:lang="es">Las razones mas comunes por las cuales una persona desarrolla ADHD. Aun es bastante incomprendido cual es la razon especifica. Sin embargo, la ciencia nos da ciertos rasgos comunes.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The most common known reasons someone has or develops ADHD. It is still largely unknown what is the specific reason. Yet Science gives an overview of the main traits of it.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cause</rdfs:label>
+        <rdfs:label xml:lang="es">razones</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000040 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000039"/>
+        <rdfs:comment xml:lang="en">The main reason of the disease. It is passed from parent to offsprings.</rdfs:comment>
+        <rdfs:label xml:lang="es">Genetica</rdfs:label>
+        <rdfs:label xml:lang="en">Genetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000269"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000269"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000269"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Genes</rdfs:label>
+        <rdfs:label xml:lang="es">Genes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000042 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000042">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000039"/>
+        <rdfs:comment xml:lang="en">It is believed that the environment can place a role on the disease. In this section, it is possible to see what environmental variables patients find in their lifes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000043 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000043">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000039"/>
+        <rdfs:comment xml:lang="en">Factors in society that influence in a patients ADHD</rdfs:comment>
+        <rdfs:label xml:lang="es">Sociedad</rdfs:label>
+        <rdfs:label xml:lang="en">Society</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000044 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000044">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Maneras de tratar la enfermedad de ADHD</rdfs:comment>
+        <rdfs:comment xml:lang="en">Ways to treat ADHD. In this part it is possible to find the type of behavioral thereapies, diet and medication used to treat this disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">Management</rdfs:label>
+        <rdfs:label xml:lang="es">Manejo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000045 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000045">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">There several types of medication available on the market. The most common types are presented here.</rdfs:comment>
+        <rdfs:label xml:lang="es">Medicación</rdfs:label>
+        <rdfs:label xml:lang="en">Medication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000046 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000046">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000268"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A list of the type of therapies that help patients to cope with the social aspects of the disease and its everyday challenges.</rdfs:comment>
+        <rdfs:label xml:lang="en">Behavioral Therapies</rdfs:label>
+        <rdfs:label xml:lang="es">terapias de comportamiento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000047 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000047">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000268"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Diet</rdfs:label>
+        <rdfs:label xml:lang="es">Dieta / alimentacion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000048 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000048">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000046"/>
+        <rdfs:label xml:lang="en">Cognitive Behavioral Therapy</rdfs:label>
+        <rdfs:label xml:lang="es">Terapia Cognitiva de Comportamiento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000050 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000050">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000046"/>
+        <rdfs:label xml:lang="en">Family_Therapy</rdfs:label>
+        <rdfs:label xml:lang="es">Terapia Familiar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000051 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000051">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000046"/>
+        <rdfs:label xml:lang="en">Interpersonal_psychotherapy</rdfs:label>
+        <rdfs:label xml:lang="es">Psychoterapia Interpersonal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000052 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000052">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000046"/>
+        <rdfs:label xml:lang="es">Entrenamiento de habilidades sociales</rdfs:label>
+        <rdfs:label xml:lang="en">Social_Skills_training</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000053 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000053">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000046"/>
+        <rdfs:label xml:lang="en">Behavioral _peer _intervention</rdfs:label>
+        <rdfs:label xml:lang="es">Intervencion de comportamiento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000054 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000054">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000046"/>
+        <rdfs:label xml:lang="es">Entrenamiento de Organizacion</rdfs:label>
+        <rdfs:label xml:lang="en">Organization _Training</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000055 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000055">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000046"/>
+        <rdfs:label xml:lang="es">Neuro-feedback</rdfs:label>
+        <rdfs:label xml:lang="en">Neurofeedback</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000056 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000056">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000267"/>
+                <owl:hasValue rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000244"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Stimulants are the most successfull and known medication to work for ADHD. In this section, it is possible to know the types of available stimulants and their specific names</rdfs:comment>
+        <rdfs:label xml:lang="en">Stimulant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000057 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000057">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">No estimulantes.  Un metodo diferente usado para tratar pacients con ADHD</rdfs:label>
+        <rdfs:label xml:lang="en">Non-Stimulant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000058 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000058">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000056"/>
+        <rdfs:comment xml:lang="en">The first type of stimulant develop by medicine. Currently there several types of stimulants that carry methylphenidate as its active component. It is possible to get the full list here.</rdfs:comment>
+        <rdfs:label xml:lang="es">Metanfetaminas</rdfs:label>
+        <rdfs:label xml:lang="en">Methylphenidate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000059 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000059">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000056"/>
+        <rdfs:comment xml:lang="en">Central nervous system stimulant that helps patients to focus. This type of stimulant was discovered in 1887. The list of medication that contain this component are here.</rdfs:comment>
+        <rdfs:label xml:lang="en">Amphetamine</rdfs:label>
+        <rdfs:label xml:lang="es">Anfetaminas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000060 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000060">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000057"/>
+        <rdfs:label xml:lang="es">Atomoxetina</rdfs:label>
+        <rdfs:label xml:lang="en">Atomoxetine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000061 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000061">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000057"/>
+        <rdfs:label xml:lang="en">Bupropion</rdfs:label>
+        <rdfs:label xml:lang="es">Bupropión</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000062 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000062">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000057"/>
+        <rdfs:label xml:lang="es">Guanfacina</rdfs:label>
+        <rdfs:label xml:lang="en">Guanfacine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000063 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000063">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000057"/>
+        <rdfs:label xml:lang="es">Clonidina</rdfs:label>
+        <rdfs:label xml:lang="en">Clonidine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000064 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000064">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000058"/>
+        <rdfs:label xml:lang="en">Ritalin</rdfs:label>
+        <rdfs:label xml:lang="es">Ritalin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000065 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000065">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000058"/>
+        <rdfs:label xml:lang="en">Concerta</rdfs:label>
+        <rdfs:label xml:lang="es">Concerta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000066 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000066">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000058"/>
+        <rdfs:label xml:lang="en">Metadate</rdfs:label>
+        <rdfs:label xml:lang="es">Metadate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000067 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000067">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000058"/>
+        <rdfs:label xml:lang="en">Quillichew</rdfs:label>
+        <rdfs:label xml:lang="es">Quillichew</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000068 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000068">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000058"/>
+        <rdfs:label xml:lang="en">Quillivant</rdfs:label>
+        <rdfs:label xml:lang="es">Quillivant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000069 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000069">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000058"/>
+        <rdfs:label xml:lang="en">Daytrana</rdfs:label>
+        <rdfs:label xml:lang="es">Daytrana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000070 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000070">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000058"/>
+        <rdfs:label xml:lang="en">Focalin</rdfs:label>
+        <rdfs:label xml:lang="es">Focalin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000071 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000071">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000058"/>
+        <rdfs:label xml:lang="en">Aptensio</rdfs:label>
+        <rdfs:label xml:lang="es">Aptensio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000072 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000072">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000059"/>
+        <rdfs:label xml:lang="en">Aderall</rdfs:label>
+        <rdfs:label xml:lang="es">Aderall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000073 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000073">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000059"/>
+        <rdfs:label xml:lang="en">Dexedrine</rdfs:label>
+        <rdfs:label xml:lang="es">Dexedrine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000074 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000074">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000059"/>
+        <rdfs:label xml:lang="en">Vyvanse</rdfs:label>
+        <rdfs:label xml:lang="es">Vyvanse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000075 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000075">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000059"/>
+        <rdfs:label xml:lang="en">Evekeo</rdfs:label>
+        <rdfs:label xml:lang="es">Evekeo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000076 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000076">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000059"/>
+        <rdfs:label xml:lang="en">Procentra</rdfs:label>
+        <rdfs:label xml:lang="es">Procentra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000077 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000077">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000059"/>
+        <rdfs:label xml:lang="en">Dyanavel XR</rdfs:label>
+        <rdfs:label xml:lang="es">Dyanavel XR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000078 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000078">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000060"/>
+        <rdfs:label xml:lang="en">Strattera</rdfs:label>
+        <rdfs:label xml:lang="es">Strattera</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000079 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000079">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000061"/>
+        <rdfs:label xml:lang="en">Zyban</rdfs:label>
+        <rdfs:label xml:lang="es">Zyban</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000080 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000080">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000061"/>
+        <rdfs:label xml:lang="en">Wellbutrin</rdfs:label>
+        <rdfs:label xml:lang="es">Wellbutrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000081 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000081">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000062"/>
+        <rdfs:label xml:lang="en">Intuniv</rdfs:label>
+        <rdfs:label xml:lang="es">Intuniv</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000082 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000082">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000063"/>
+        <rdfs:label xml:lang="en">Kapvay</rdfs:label>
+        <rdfs:label xml:lang="es">Kapvay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000083 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000083">
+        <dc:description xml:lang="en">Other Disorders that are present in ADHD patients.</dc:description>
+        <rdfs:label xml:lang="en">Associated Disorders</rdfs:label>
+        <rdfs:label xml:lang="es">Desordenes Asociados</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000084 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000084">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000083"/>
+        <dc:description xml:lang="en">Disorders characterized by the increase or decrease of a person mood in way that affects a patient&apos;s life.</dc:description>
+        <rdfs:label xml:lang="en">Mood Disorders</rdfs:label>
+        <rdfs:label xml:lang="es">Trastornos de animo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000085 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000085">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Brain disorder that causes unusual shifts of mood</rdfs:comment>
+        <rdfs:label xml:lang="en">Bipolar Disorder</rdfs:label>
+        <rdfs:label xml:lang="es">Desorden Bipolar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000086 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000086">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Mental disorder characterized for having a sustained period of low mood. the basic period is of two weeks.</rdfs:comment>
+        <rdfs:label xml:lang="es">Desorden maniaco depressivo</rdfs:label>
+        <rdfs:label xml:lang="en">Major Depressive Disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000087 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000087">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000083"/>
+        <rdfs:comment xml:lang="en">Syndrome that causes unpleasant sensations on legs and the urge to move them</rdfs:comment>
+        <rdfs:label xml:lang="en">Restless legs syndrome</rdfs:label>
+        <rdfs:label xml:lang="es">Sindrome de las piernas sin descanso</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000088 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000088">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000083"/>
+        <rdfs:comment xml:lang="en">Include illness that affect the sleep quality. It ranges from sleep apnea to insomnia</rdfs:comment>
+        <rdfs:label xml:lang="es">Desordenes del sueño</rdfs:label>
+        <rdfs:label xml:lang="en">Sleep Disorders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000089 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000089">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000083"/>
+        <rdfs:comment xml:lang="en">Hostile and defiant behavior, usually seen in Children</rdfs:comment>
+        <rdfs:label xml:lang="en">Oppositional Defiant Disorder (ODD)</rdfs:label>
+        <rdfs:label xml:lang="es">Sindrome de oposición</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000090 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000090">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000083"/>
+        <rdfs:comment xml:lang="en">Mental fogginess and slow working speed</rdfs:comment>
+        <rdfs:label xml:lang="en">Sluggish Cognitive Tempo</rdfs:label>
+        <rdfs:label xml:lang="es">Tiempo cognitivo lento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000091 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000091">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000083"/>
+        <rdfs:comment xml:lang="en">Childhood disorder characterized by Tics</rdfs:comment>
+        <rdfs:label xml:lang="es">Sindrome de tourette</rdfs:label>
+        <rdfs:label xml:lang="en">Tourette Syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000093 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000093">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000045"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000172"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Antidepressants are used to treat associated disorders that come with the disease, such as mood disorders.</rdfs:comment>
+        <rdfs:label xml:lang="es">Antidepresivos</rdfs:label>
+        <rdfs:label xml:lang="en">Antidepressants</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000094 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000094">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000093"/>
+        <rdfs:label xml:lang="en">Adapin</rdfs:label>
+        <rdfs:label xml:lang="es">Adapin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000095 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000095">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000093"/>
+        <rdfs:label xml:lang="en">Asendin</rdfs:label>
+        <rdfs:label xml:lang="es">Asendin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000096 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000096">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000093"/>
+        <rdfs:label xml:lang="en">Celexa</rdfs:label>
+        <rdfs:label xml:lang="es">Celexa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000097 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000097">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">Abuso infantil</rdfs:label>
+        <rdfs:label xml:lang="en">Child Abuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000098 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000098">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">Pobre sistema educativo</rdfs:label>
+        <rdfs:label xml:lang="en">Poor Educational System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000099 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000099">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">SERT</rdfs:label>
+        <rdfs:label xml:lang="es">SERT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000100 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000100">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">HTR1B</rdfs:label>
+        <rdfs:label xml:lang="es">HTR1B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000101 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000101">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">SNAP25</rdfs:label>
+        <rdfs:label xml:lang="es">SNAP25</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000102 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000102">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">GRIN2A</rdfs:label>
+        <rdfs:label xml:lang="es">GRIN2A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000103 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000103">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">ADRA2A</rdfs:label>
+        <rdfs:label xml:lang="es">ADRA2A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000104 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000104">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">TPH2</rdfs:label>
+        <rdfs:label xml:lang="es">TPH2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000105 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000105">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">BDNF</rdfs:label>
+        <rdfs:label xml:lang="es">BDNF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000106 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000106">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">DAT</rdfs:label>
+        <rdfs:label xml:lang="es">DAT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000107 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000107">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">DRD4</rdfs:label>
+        <rdfs:label xml:lang="es">DRD4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000108 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000108">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">DRD5</rdfs:label>
+        <rdfs:label xml:lang="es">DRD5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000109 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000109">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">TAAR1</rdfs:label>
+        <rdfs:label xml:lang="es">TAAR1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000110 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000110">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">MAOA</rdfs:label>
+        <rdfs:label xml:lang="es">MAOA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000111 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000111">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">COMT</rdfs:label>
+        <rdfs:label xml:lang="es">COMT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000112 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000112">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000041"/>
+        <rdfs:label xml:lang="en">LPHN3</rdfs:label>
+        <rdfs:label xml:lang="es">LPHN3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000113 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000113">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000268"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000268"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207"/>
+        <rdfs:comment xml:lang="en">A small account on the type of nutrition that patients should have</rdfs:comment>
+        <rdfs:label xml:lang="en">Recommended Regime</rdfs:label>
+        <rdfs:label xml:lang="es">Regimen recomendado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000151 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000151">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000113"/>
+        <owl:disjointWith rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207"/>
+        <rdfs:comment xml:lang="en">The type of supplements recommended to patients that are known to increase their concentration.</rdfs:comment>
+        <rdfs:label xml:lang="es">Suplementos</rdfs:label>
+        <rdfs:label xml:lang="en">Supplements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000152 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000152">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000151"/>
+        <rdfs:label xml:lang="en">Rhodiola Rosea</rdfs:label>
+        <rdfs:label xml:lang="es">Rhodiola Rosea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000153 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000153">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000151"/>
+        <rdfs:label xml:lang="en">Zinc</rdfs:label>
+        <rdfs:label xml:lang="es">Zinc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000154 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000154">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000151"/>
+        <rdfs:label xml:lang="es">Hierro</rdfs:label>
+        <rdfs:label xml:lang="en">Iron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000155 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000155">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000151"/>
+        <rdfs:label xml:lang="es">Magnesio</rdfs:label>
+        <rdfs:label xml:lang="en">Magnesium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000156 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000156">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000151"/>
+        <rdfs:label xml:lang="en">Vitamin B</rdfs:label>
+        <rdfs:label xml:lang="es">Vitamina B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000157 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000157">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000151"/>
+        <rdfs:label xml:lang="en">Ginseng</rdfs:label>
+        <rdfs:label xml:lang="es">Ginseng</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000160 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000160">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000151"/>
+        <rdfs:label xml:lang="en">Picamilon</rdfs:label>
+        <rdfs:label xml:lang="es">Picamilon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000161 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000161">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000151"/>
+        <rdfs:label xml:lang="es">Acidos grasos Omega 3</rdfs:label>
+        <rdfs:label xml:lang="en">Omega 3 fatty Acids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000162 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000162">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000151"/>
+        <rdfs:label xml:lang="es">Pictogenol</rdfs:label>
+        <rdfs:label xml:lang="en">Pycnogenol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000163 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000163">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000042"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">Deprivacion social o aislamiento</rdfs:label>
+        <rdfs:label xml:lang="en">Social Deprivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000164 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000164">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000042"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Toxins during Pregnancy</rdfs:label>
+        <rdfs:label xml:lang="es">toxinas durante el embarazo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000165 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000165">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000042"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Childhood exposure to toxins</rdfs:label>
+        <rdfs:label xml:lang="es">Exposicion infantil a substancias toxicas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000166 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000166">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000008"/>
+        <rdfs:comment xml:lang="en">Most important accounts in the ADHD research Before 1900. How the disease was originally discovered.</rdfs:comment>
+        <rdfs:label xml:lang="en">Before 1900</rdfs:label>
+        <rdfs:label xml:lang="es">Hechos mas importantes en las investigaciones de ADHD . Como fue la enfermedad originalmente descubierta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000167 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000167">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000008"/>
+        <rdfs:comment xml:lang="es">Hechos mas importantes de la investigacion de ADHD. Desde 1900 - 1940</rdfs:comment>
+        <rdfs:comment xml:lang="en">Most important accounts in the ADHD research from 1900- 1940</rdfs:comment>
+        <rdfs:label xml:lang="en">1900-1940</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000168 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000168">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000008"/>
+        <rdfs:comment xml:lang="es">Hechos mas importantes en la investigacion de ADHD desde 1940- a tiempos actuales</rdfs:comment>
+        <rdfs:comment xml:lang="en">Most important accounts in the ADHD research from 1940- to present time.</rdfs:comment>
+        <rdfs:label xml:lang="en">1940- Present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000169 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000169">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Group of menrtal conditions, characterized for a major feeling of anxiety that impairs the patient.</rdfs:comment>
+        <rdfs:label xml:lang="en">Anxiety Disorder</rdfs:label>
+        <rdfs:label xml:lang="es">Desorden de ansiedad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000097"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000165"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">Sintomas de inatento</rdfs:label>
+        <rdfs:label xml:lang="en">Symptoms_Inattentive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000177 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000177">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:label xml:lang="en">Forgetfulness</rdfs:label>
+        <rdfs:label xml:lang="es">Olvidadizo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000178 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000178">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:label xml:lang="es">Falta de concentración</rdfs:label>
+        <rdfs:label xml:lang="en">Lack of focus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000179 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000179">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:label xml:lang="es">Aburrido excesivamente</rdfs:label>
+        <rdfs:label xml:lang="en">Excessive Boredom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000180 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000180">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:label xml:lang="en">Have time-management issues</rdfs:label>
+        <rdfs:label xml:lang="es">Tienes problemas de manejo del tiempo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000181 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000181">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:label xml:lang="en">Appear not to be listening when spoken to</rdfs:label>
+        <rdfs:label xml:lang="es">Parece nunca prestar atencion en una conversación</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000182 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000182">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:label xml:lang="en">Daydream</rdfs:label>
+        <rdfs:label xml:lang="es">Sueña despierto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000183 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000183">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:label xml:lang="en">Become easily confused</rdfs:label>
+        <rdfs:label xml:lang="es">Se confunde con facilidad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000184 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000184">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:label xml:lang="en">Move slowly</rdfs:label>
+        <rdfs:label xml:lang="es">Se mueve lentamente</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000185 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000185">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:label xml:lang="es">Posee problemas para seguir instrucciones</rdfs:label>
+        <rdfs:label xml:lang="en">Struggle to follow instructions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000186 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000186">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:label xml:lang="en">Have trouble understanding details</rdfs:label>
+        <rdfs:label xml:lang="es">Se les dificulta entender detalles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000187 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000187">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+        <rdfs:label xml:lang="es">Dificultad para procesar informacion mas rapido que otros</rdfs:label>
+        <rdfs:label xml:lang="en">Have difficulty processing information as quickly and accurately as others</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000097"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000165"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">Sintomas de hiperactivo-impulsivo</rdfs:label>
+        <rdfs:label xml:lang="en">Symptoms_Hyperactive-Impulsive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000189 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000189">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:label xml:lang="en">Fidget or squirm a great deal</rdfs:label>
+        <rdfs:label xml:lang="es">jugar con dedos bastante u obsesivamente</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000190 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000190">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:label xml:lang="es">No parar de hablar</rdfs:label>
+        <rdfs:label xml:lang="en">Talk nonstop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000191 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000191">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:label xml:lang="en">Dash around</rdfs:label>
+        <rdfs:label xml:lang="es">Perder el tiempo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000192 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000192">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:label xml:lang="en">Have trouble sitting still</rdfs:label>
+        <rdfs:label xml:lang="es">Tener problemas quedandose quieto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000193 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000193">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:label xml:lang="en">Be constantly in motion</rdfs:label>
+        <rdfs:label xml:lang="es">Estar constantement en movimiento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000194 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000194">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:label xml:lang="es">Dificultad para hacer cosas en silencio</rdfs:label>
+        <rdfs:label xml:lang="en">Have difficulty performing quiet tasks or activities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000195 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000195">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:label xml:lang="es">Falta de paciencia</rdfs:label>
+        <rdfs:label xml:lang="en">Lack of patience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000196 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000196">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:label xml:lang="en">Blurt out inappropriate comments</rdfs:label>
+        <rdfs:label xml:lang="es">Decir comentarios inapropiados</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000197 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000197">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+        <rdfs:label xml:lang="en">Act without regard of their consequences</rdfs:label>
+        <rdfs:label xml:lang="es">Actuar sin pensar en las consecuencias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000205 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000205">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+        <rdfs:label xml:lang="es">Combinación de sintomas tanto de hiperactivo-impulsivo como de inatento</rdfs:label>
+        <rdfs:label xml:lang="en">Combination of both Inattentive and Hyperactive-impulsive traits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000173"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000199"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000199"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000097"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000164"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000165"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000202"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">Sintomas de tipo combinado</rdfs:label>
+        <rdfs:label xml:lang="en">Symptoms_Combined_Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000176"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000188"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000200"/>
+                <owl:someValuesFrom rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000206"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The type of food that affects patients and enhances their symptoms</rdfs:comment>
+        <rdfs:label xml:lang="es">Alimentos tóxicos</rdfs:label>
+        <rdfs:label xml:lang="en">Toxic Food</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000210 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000210">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207"/>
+        <rdfs:comment xml:lang="en">A small list of chemicals that are usually found in food and that affect ADHD patients.</rdfs:comment>
+        <rdfs:label xml:lang="en">Chemical_Culprits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000211 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000211">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207"/>
+        <rdfs:comment xml:lang="en">A small amount of most common colorants used in food that are known to affect patients with ADHD</rdfs:comment>
+        <rdfs:label xml:lang="en">Artificial_Dyes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000212 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000212">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207"/>
+        <rdfs:comment xml:lang="en">Commonly known food with high sugar levels that affect ADHD patients.</rdfs:comment>
+        <rdfs:label xml:lang="en">High_Sugar_Food</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000213 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000213">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207"/>
+        <rdfs:comment xml:lang="en">A small list of food that cause allergies and that can affect ADHD patients.</rdfs:comment>
+        <rdfs:label xml:lang="en">Allergens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000214 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000214">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000207"/>
+        <rdfs:comment xml:lang="en">Types of salt of slicylic salt found to be present in food. It is possible to see a small list of food that contains them</rdfs:comment>
+        <rdfs:label xml:lang="en">Salicylates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000215 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000215">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000214"/>
+        <rdfs:label xml:lang="es">Almendras</rdfs:label>
+        <rdfs:label xml:lang="en">Almonds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000216 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000216">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000214"/>
+        <rdfs:label xml:lang="en">Cranberries</rdfs:label>
+        <rdfs:label xml:lang="es">arándano</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000217 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000217">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000214"/>
+        <rdfs:label xml:lang="en">Grapes</rdfs:label>
+        <rdfs:label xml:lang="es">Uva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000218 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000218">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000214"/>
+        <rdfs:label xml:lang="es">Tomate</rdfs:label>
+        <rdfs:label xml:lang="en">Tomatoes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000219 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000219">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000213"/>
+        <rdfs:label xml:lang="es">Trigo</rdfs:label>
+        <rdfs:label xml:lang="en">Wheat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000220 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000220">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000213"/>
+        <rdfs:label xml:lang="en">Milk</rdfs:label>
+        <rdfs:label xml:lang="es">leche</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000221 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000221">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000213"/>
+        <rdfs:label xml:lang="es">Nueces</rdfs:label>
+        <rdfs:label xml:lang="en">Peanuts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000222 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000222">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000213"/>
+        <rdfs:label xml:lang="en">Eggs</rdfs:label>
+        <rdfs:label xml:lang="es">Huevos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000223 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000223">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000213"/>
+        <rdfs:label xml:lang="en">Soy</rdfs:label>
+        <rdfs:label xml:lang="es">Soya</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000224 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000224">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000213"/>
+        <rdfs:label xml:lang="en">Fish</rdfs:label>
+        <rdfs:label xml:lang="es">Pescado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000225 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000225">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000213"/>
+        <rdfs:label xml:lang="es">Mariscos</rdfs:label>
+        <rdfs:label xml:lang="en">Shellfish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000226 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000226">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000210"/>
+        <rdfs:label xml:lang="es">Naranja B</rdfs:label>
+        <rdfs:label xml:lang="en">Orange B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000227 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000227">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000210"/>
+        <rdfs:label xml:lang="en">FD&amp;C Red No. 3 and No. 40 (allura)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000228 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000228">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000210"/>
+        <rdfs:label xml:lang="es">FD&amp;C Azul No. 1 and No. 2</rdfs:label>
+        <rdfs:label xml:lang="en">FD&amp;C Blue No. 1 and No. 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000229 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000229">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000210"/>
+        <rdfs:label xml:lang="es">FD&amp;C Amarillo No. 5 (tartrazina) and No. 6</rdfs:label>
+        <rdfs:label xml:lang="en">FD&amp;C Yellow No. 5 (tartrazine) and No. 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000230 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000230">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000210"/>
+        <rdfs:label xml:lang="en">FD&amp;C Green No. 3</rdfs:label>
+        <rdfs:label xml:lang="es">FD&amp;C Verde No. 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000231 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000231">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000210"/>
+        <rdfs:label xml:lang="en">Citrus Red No. 2</rdfs:label>
+        <rdfs:label xml:lang="es">Rojo Citrico No. 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000232 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000232">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000211"/>
+        <rdfs:label xml:lang="en">Butylated hydroxyanisole (BHA)</rdfs:label>
+        <rdfs:label xml:lang="es">Hidroxianisol butilado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000233 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000233">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000211"/>
+        <rdfs:label xml:lang="en">Butylated hydroxytoluene (BHT)</rdfs:label>
+        <rdfs:label xml:lang="es">Hidroxitolueno butilado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000234 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000234">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000211"/>
+        <rdfs:label xml:lang="es">Nitrato de sodio</rdfs:label>
+        <rdfs:label xml:lang="en">Sodium_nitrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000235 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000235">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000211"/>
+        <rdfs:label xml:lang="en">Tert-Butylhydroquinone (TBHQ)</rdfs:label>
+        <rdfs:label xml:lang="es">tert-butilhidroquinona (TBHQ)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000236 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000236">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000212"/>
+        <rdfs:label xml:lang="en">Soda</rdfs:label>
+        <rdfs:label xml:lang="es">Soda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000237 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000237">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000212"/>
+        <rdfs:label xml:lang="en">Gelatin_Powder</rdfs:label>
+        <rdfs:label xml:lang="es">Polvo de gelatina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000238 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000238">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000212"/>
+        <rdfs:label xml:lang="en">Cake_mixes</rdfs:label>
+        <rdfs:label xml:lang="es">Mezclas de pastel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000239 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000239">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000212"/>
+        <rdfs:label xml:lang="es">Dulces duros</rdfs:label>
+        <rdfs:label xml:lang="en">Hard_Candy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000240 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000240">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000212"/>
+        <rdfs:label xml:lang="es">Bebidas Hidratantes</rdfs:label>
+        <rdfs:label xml:lang="en">Sport_Drinks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000241 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000241">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000212"/>
+        <rdfs:label xml:lang="en">Barbecue_Sauce</rdfs:label>
+        <rdfs:label xml:lang="es">Salsa de Barbacoa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000242 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000242">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000212"/>
+        <rdfs:label xml:lang="en">Fruit_Snacks</rdfs:label>
+        <rdfs:label xml:lang="es">Snacks con saber atificial de fruta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000243 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000243">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000242"/>
+        <rdfs:label xml:lang="es">Cereales con sabor artificial a fruta</rdfs:label>
+        <rdfs:label xml:lang="en">Fruit-Flavored Cereals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000245 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000245">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000166"/>
+        <rdfs:comment xml:lang="en">Reports of fidgety and restless children in a more closely medical context can be traced back at least as far as 1798.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Se presentan los primeros reportes acerca de niños que no pueden descansar ni controlar su comportamiento</rdfs:comment>
+        <rdfs:label xml:lang="en">Before 1798</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000246 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000246">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000166"/>
+        <rdfs:comment xml:lang="es">Alexander Crichton describe por primera vez acerca de la enfermedad, en su libro &quot; Una investigacion dentro de la naturaleza y origen de la enfermedad mental&quot;.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Alexander Crichton describes in his book “An inquiry into the nature and origin of mental derangement” a mental state reminiscent of the inattentive subtype of ADHD.</rdfs:comment>
+        <rdfs:label xml:lang="en">1798</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000247 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000247">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000166"/>
+        <rdfs:comment xml:lang="es">Heinrich Hoffman publica su libreo &quot;Struwwelpeter&quot; , el cual habla de la historia de &quot;Fidgety Phil&quot;</rdfs:comment>
+        <rdfs:comment xml:lang="en">Heinrich Hoffmann publishes his children´s book  &quot;Struwwelpeter“ including the story of Fidgety Phil.</rdfs:comment>
+        <rdfs:label xml:lang="en">1844-1845</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000248 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000248">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000166"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000267"/>
+                <owl:hasValue rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000244"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Lazar Edeleanu sintetiza las primera amfetaminas en la Universidad Humboldt de Berlin</rdfs:comment>
+        <rdfs:comment xml:lang="en">Lazar Edeleanu synthesizes amphetamineat the Humboldt University in Berlin.</rdfs:comment>
+        <rdfs:label xml:lang="en">1887</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000249 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000249">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000166"/>
+        <rdfs:comment xml:lang="en">Nagayoshi Nagai isolates ephedrine, similar in structure to its synthetic derivatives amphetamine and methamphetamine, from the plant “Ephedra vulgaris”</rdfs:comment>
+        <rdfs:comment xml:lang="es">Ngayoshi Nagai aisla la efedrina, de la cual se lograria sintetizar las posteriores anfetaminas y metanfetaminas, de la planta &quot;Ephedra Vulgaris&quot;</rdfs:comment>
+        <rdfs:label xml:lang="en">1885</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000250 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000250">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000166"/>
+        <rdfs:comment xml:lang="en">Thomas Smith Clouston, a notable Scottish psychiatrist of the late nineteenth century, describes states of over-excitability and mental explosiveness in children.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Thomas Smith Clouston, un notable psichiatra esoces describe acerca de la sobre excitabilidad de ciertos niños y su estado mental explosivo.</rdfs:comment>
+        <rdfs:label xml:lang="en">1899</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000251 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000251">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000167"/>
+        <rdfs:comment xml:lang="es">Georde Still presenta charlas acerca de condiciones anormales en niños.</rdfs:comment>
+        <rdfs:comment xml:lang="en">George Still presents lectures on abnormal psychical conditions in children</rdfs:comment>
+        <rdfs:label xml:lang="en">1902</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000252 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000252">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000167"/>
+        <rdfs:comment xml:lang="en">Alfred Tredgold extends George Still&apos;s observations.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Alfred Tredgold extiende el trabajo de George Still</rdfs:comment>
+        <rdfs:label xml:lang="en">1908</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000253 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000253">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000167"/>
+        <rdfs:comment xml:lang="en">la aparición de la enfermedad encephalitis lethargica realiza cambios de comportamiento en niños afectados.</rdfs:comment>
+        <rdfs:comment xml:lang="en">the appereance of encephalitis lethargica triggers behavioral changes in affected children.</rdfs:comment>
+        <rdfs:label xml:lang="en">1917-1920&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000254 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000254">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000167"/>
+        <rdfs:comment xml:lang="es">First Kramer and Pollnow reference to the disease.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Primera referencia de Kramer y Pollnow acerca de la enfermedad</rdfs:comment>
+        <rdfs:label xml:lang="en">1930</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000255 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000255">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000167"/>
+        <rdfs:comment xml:lang="es">Benzadrine es desarrollado para pacientes</rdfs:comment>
+        <rdfs:comment xml:lang="en">Benzadrine is developped for patients.</rdfs:comment>
+        <rdfs:label xml:lang="en">1932</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000256 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000256">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000167"/>
+        <rdfs:comment xml:lang="en">Kahn and Cohen describe cases in which hyperkinesis is a predominant feature.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Kahn and Cohen describen casos en donde la hyperkinesis es un rango predominante</rdfs:comment>
+        <rdfs:label xml:lang="en">1934</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000257 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000257">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000167"/>
+        <rdfs:comment xml:lang="en">Molitch and Sullivan report on the benefits of benzedrine.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Molitch and Sullivan reportan los beneficios del farmaco benzedrina en niños.</rdfs:comment>
+        <rdfs:label xml:lang="en">1937</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000258 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000258">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000167"/>
+        <rdfs:comment xml:lang="en">Dub and Lurie start to research the effect on female patients</rdfs:comment>
+        <rdfs:comment xml:lang="en">Dub y Luie comienzan a investigar los effectos de los farmacos en mujeres</rdfs:comment>
+        <rdfs:label xml:lang="en">1939</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000259 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000259">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000168"/>
+        <rdfs:comment xml:lang="en">Strauss and Werner start to define the concept of the disease as brain injury.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Strauss y Werner empiezan a definir el concepto de la enfermedad como daño cerebral.</rdfs:comment>
+        <rdfs:label xml:lang="en">1942</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000260 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000260">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000168"/>
+        <rdfs:comment xml:lang="es">Leandro Pannizon sistetiza las actuales metanfetaminas trabajando para CIBA</rdfs:comment>
+        <rdfs:comment xml:lang="en">Leandro Pannizon synthesizes methylphenidate while working for CIBA</rdfs:comment>
+        <rdfs:label xml:lang="en">1944</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000261 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000261">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000168"/>
+        <rdfs:comment xml:lang="en">Carlsson and colleagues publish their landmark papers on the neurotransmitter dopamine.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Carlsson y compañia publican investigaciones relacionados a la dopamina y su relacion a la enfermedad</rdfs:comment>
+        <rdfs:label xml:lang="en">1950</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000262 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000262">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000168"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000270"/>
+                <owl:hasValue rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000244"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Laufer and Denhoff further characterize the “Hyperkinetic Behavior Syndrome in Children” and describe the disorder in an article with Gerald Solomons as the “Hyperkinetic Impulse Disorder”</rdfs:comment>
+        <rdfs:comment xml:lang="es">Laufer and Denhoff profundizan en el desarrollo de la teoria del &quot;sindrome hyperkinetico en niños&quot;.</rdfs:comment>
+        <rdfs:label xml:lang="en">1957</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000263 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000263">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000168"/>
+        <rdfs:comment xml:lang="en">Conners and Eisenberg report on the effects of methylphenidate in disturbed children.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Conners y Eisenberg reportan en los efectos de los farmacos en base a metanfetaminas en niños.</rdfs:comment>
+        <rdfs:label xml:lang="en">1963</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000264 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000264">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000168"/>
+        <rdfs:comment xml:lang="en">DSM II mentions the “hyperkinetic reaction of childhood”.</rdfs:comment>
+        <rdfs:comment xml:lang="es">El texto medico DSM II menciona por primera vez las reacciones hyperactivas en niños.</rdfs:comment>
+        <rdfs:label xml:lang="en">1968</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000265 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000265">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000168"/>
+        <rdfs:comment xml:lang="es">Virginia Douglas investiga las principales deficiencias de niños hiperactivos en 1970. Dandole por primera vez un grupo de sintomas para diagnosticarlo efectivamente.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Virginia Douglas investigates specific disabilities of hyperactive children in 1970, suggesting that a core group of symptoms involving inability to sustain attention and to control impulsivity can account for most of the deficits</rdfs:comment>
+        <rdfs:label xml:lang="en">1970</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000266 -->
+
+    <owl:Class rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000266">
+        <rdfs:subClassOf rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000168"/>
+        <rdfs:comment xml:lang="es">DSM III define oficialmente el termino &quot;deficit de atención con o sin hiperactividad&quot; y mostrando los sintomas de falta de atencion, impulsividad e hiperactividad como rasgos caracteristicos.</rdfs:comment>
+        <rdfs:comment xml:lang="en">DSM III defines “Attention Deficit Disorder, with or without hyperactivity”, thus distinguishing between ADD and ADHD, and listing “inattention, impulsivity and hyperactivity“ as essential features.</rdfs:comment>
+        <rdfs:label xml:lang="en">1980-Present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000244 -->
+
+    <owl:Thing rdf:about="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000244">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.ADHD.com/ontologies/ADHD.owl/ADHD_0000006"/>
+        <rdfs:label xml:lang="en">Germany</rdfs:label>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
