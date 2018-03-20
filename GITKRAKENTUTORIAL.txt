@@ -1,3 +1,5 @@
 GITKRAKENTUTORIAL
 
 Project Guttemberg
+
+We will show the use of branches. This is the part where I use practice Branch to have a version of any project I'm working on. 
